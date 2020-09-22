@@ -1,11 +1,11 @@
-package com.testing.dev.manig.classes
+package com.testing.dev.manig.delegation
 
-typealias Name = String
-typealias EmailData = String
-typealias Number = Int
+typealias Name1 = String
+typealias EmailData1 = String
+typealias Number1 = Int
 
-data class Employee(val name: Name, val email: EmailData) {
-    fun printNum(num: Number) {
+data class Employee(val name: Name1, val email: EmailData1) {
+    fun printNum(num: Number1) {
 
     }
 
