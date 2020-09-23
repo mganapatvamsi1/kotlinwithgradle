@@ -1,6 +1,8 @@
 package com.testing.dev.manig.classes
 
-class Customer1() {
+import com.testing.dev.manig.generics.Entity
+
+class Customer1 {
     var lastPurchasedAmount: Double = 0.0
     get() = field
     set(value) {
